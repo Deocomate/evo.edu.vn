@@ -1,0 +1,13 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+
+body {
+    font-family: 'Raleway', Helvetica, Arial, sans-serif;
+    font-variant-numeric: lining-nums tabular-nums;
+}
+
+.container {
+    @media screen and (width >= 96rem) {
+        max-width: 80rem;
+    }
+}
