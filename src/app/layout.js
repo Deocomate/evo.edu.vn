@@ -4,8 +4,9 @@ import "@/assets/css/globals.css";
 import MainFooter from "@/components/layouts/MainFooter";
 import MainHeader from "@/components/layouts/MainHeader";
 import {Toaster} from "@/components/ui/sonner";
-import {getMenus} from '@/services/menuService';
 import {getContactInfo} from '@/services/contactService';
+import {getNewsCategories} from '@/services/newsService';
+import {getAllTrainings} from '@/services/trainingService';
 import FloatingSocials from '@/components/shared/FloatingSocials';
 
 const raleway = Raleway({
@@ -20,11 +21,14 @@ export const metadata = {
 };
 
 export default async function RootLayout({children}) {
-    const [menuData, contactData] = await Promise.all([getMenus(), getContactInfo()]);
+    const [newsCategories, allTrainings, contactData] = await Promise.all([getNewsCategories(), getAllTrainings(), getContactInfo()]);
 
     return (<html lang="vi" className={raleway.variable}>
     <body>
-    <MainHeader navigation={menuData}/>
+    <MainHeader
+        newsCategories={newsCategories}
+        trainingCourses={allTrainings}
+    />
     {children}
     <MainFooter contactInfo={contactData}/>
     <FloatingSocials contactInfo={contactData}/>
