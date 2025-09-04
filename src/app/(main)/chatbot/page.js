@@ -1,5 +1,5 @@
 // src/app/(main)/chatbot/page.js
-import ChatbotPage from "@/pages_jsx/Chatbot/ChatbotPage";
+import ChatbotPage from "@/views/Chatbot/ChatbotPage";
 
 // Metadata for SEO and browser tab
 export const metadata = {

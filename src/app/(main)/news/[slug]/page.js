@@ -2,7 +2,7 @@
 // src/app/(main)/news/[slug]/page.js
 import { notFound } from 'next/navigation';
 import { getNews, getNewsBySlug } from '@/services/newsService';
-import NewsDetailPage from '@/pages_jsx/News/Detail/NewsDetailPage';
+import NewsDetailPage from '@/views/News/Detail/NewsDetailPage';
 import { GenericDetailSkeleton } from '@/components/ui/GenericDetailSkeleton'; // SỬA: Import đúng component
 
 export async function generateMetadata({ params }) {

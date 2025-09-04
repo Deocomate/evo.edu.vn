@@ -4,7 +4,7 @@ import {
   getTestimonialBySlug,
   getTestimonials,
 } from "@/services/parentsCornerService";
-import TestimonialDetailPage from "@/pages_jsx/ParentsCorner/Detail/TestimonialDetailPage";
+import TestimonialDetailPage from "@/views/ParentsCorner/Detail/TestimonialDetailPage";
 
 const { generateMetadata, Page } = createDetailPage({
   entityName: "Chia sẻ của phụ huynh",

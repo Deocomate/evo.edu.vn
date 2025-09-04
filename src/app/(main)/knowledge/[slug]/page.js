@@ -1,7 +1,7 @@
 /* src/app/(main)/knowledge/[slug]/page.js */
 import { createDetailPage } from "@/lib/pageFactory";
 import { getNewsBySlug } from "@/services/newsService";
-import NewsDetailPage from "@/pages_jsx/News/Detail/NewsDetailPage";
+import NewsDetailPage from "@/views/News/Detail/NewsDetailPage";
 
 const { generateMetadata, Page } = createDetailPage({
   entityName: "Bài viết",

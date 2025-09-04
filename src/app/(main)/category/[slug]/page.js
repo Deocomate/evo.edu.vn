@@ -1,5 +1,5 @@
 import { getNewsByCategorySlug, getNewsCategories } from "@/services/newsService";
-import NewsPage from "@/pages_jsx/News/NewsPage";
+import NewsPage from "@/views/News/NewsPage";
 import { notFound } from "next/navigation";
 
 export async function generateMetadata({ params }) {

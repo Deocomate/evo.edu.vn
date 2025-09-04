@@ -1,4 +1,4 @@
-import HomePage from "@/pages_jsx/Home/HomePage";
+import HomePage from "@/views/Home/HomePage";
 import { getHomepageData } from "@/services/homeService";
 import { getFeaturedTeachers } from "@/services/teacherService";
 import { getTrainings } from "@/services/trainingService";

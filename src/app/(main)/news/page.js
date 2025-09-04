@@ -1,5 +1,5 @@
 /* ===== src\app\(main)\news\page.js ===== */
-import NewsPage from "@/pages_jsx/News/NewsPage";
+import NewsPage from "@/views/News/NewsPage";
 import { getNews, getNewsCategories } from "@/services/newsService";
 
 export const metadata = {

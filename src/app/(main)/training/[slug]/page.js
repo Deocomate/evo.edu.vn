@@ -1,7 +1,7 @@
 // src/app/(main)/training/[slug]/page.js
 import { createDetailPage } from "@/lib/pageFactory";
 import { getTrainingBySlug, getOtherTrainings } from "@/services/trainingService";
-import TrainingDetailPage from "@/pages_jsx/Training/Detail/TrainingDetailPage";
+import TrainingDetailPage from "@/views/Training/Detail/TrainingDetailPage";
 
 const { generateMetadata, Page } = createDetailPage({
   entityName: "Khóa học",

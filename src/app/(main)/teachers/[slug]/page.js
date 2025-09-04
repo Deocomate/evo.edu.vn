@@ -1,7 +1,7 @@
 // src/app/(main)/teachers/[slug]/page.js
 import { createDetailPage } from "@/lib/pageFactory";
 import { getTeacherBySlug, getOtherTeachers } from "@/services/teacherService";
-import TeacherDetailPage from "@/pages_jsx/Teachers/Detail/TeacherDetailPage";
+import TeacherDetailPage from "@/views/Teachers/Detail/TeacherDetailPage";
 
 const { generateMetadata, Page } = createDetailPage({
   entityName: "Giáo viên",

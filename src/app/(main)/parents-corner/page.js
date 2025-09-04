@@ -1,5 +1,5 @@
 /* src/app/(main)/parents-corner/page.js */
-import ParentsCornerPage from "@/pages_jsx/ParentsCorner/ParentsCornerPage";
+import ParentsCornerPage from "@/views/ParentsCorner/ParentsCornerPage";
 import {getKnowledgeNews} from "@/services/newsService";
 import {getDocuments} from "@/services/documentService";
 import {getTestimonials} from "@/services/parentsCornerService";
