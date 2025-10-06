@@ -17,7 +17,8 @@ const raleway = Raleway({
 });
 
 export const metadata = {
-    title: "Evo Education", description: "Evo Education - Hoc tập và phát triển kỹ năng lập trình, robot cho trẻ em",
+    title: "TRƯỜNG HỌC CÔNG NGHỆ VÀ SÁNG TẠO EVO",
+    description: "Evo Education - Hoc tập và phát triển kỹ năng lập trình, robot cho trẻ em",
 };
 
 export default async function RootLayout({children}) {

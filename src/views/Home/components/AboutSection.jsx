@@ -16,7 +16,7 @@ function AboutSection() {
                         <p className="mt-6 leading-8 text-gray-600" style={{
                             textAlign: "justify"
                         }}>
-                            "Học viện Sáng tạo Công nghệ Trẻ Evo.edu.vn là đơn vị đào tạo lập trình và công nghệ uy
+                            "Trường Học Công Nghệ Và Sáng Tạo Evo Education là đơn vị đào tạo lập trình và công nghệ uy
                             tín, chuyên cung cấp các chương trình học chất lượng cao dành cho trẻ em và thanh thiếu
                             niên. Với đội ngũ giảng viên giàu kinh nghiệm thực chiến, cơ sở vật chất hiện đại và
                             giáo trình chuẩn quốc tế, Evo cam kết mang đến môi trường học tập chuyên nghiệp, hiệu
