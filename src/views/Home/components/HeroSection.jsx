@@ -53,8 +53,8 @@ function HeroSection({
 
         <div className="relative z-20 flex flex-col items-center justify-center h-full text-center text-white px-4">
             <div className="max-w-4xl">
-                <h1 className="text-4xl md:text-5xl lg:text-5xl font-extrabold leading-tight tracking-tight drop-shadow-lg">
-                    {title}
+                <h1 className="text-3xl md:text-5xl lg:text-4xl font-extrabold leading-tight tracking-tight drop-shadow-lg">
+                    TRƯỜNG HỌC CÔNG NGHỆ VÀ SÁNG TẠO EVO
                 </h1>
                 <p className="mt-6 text-lg md:text-xl lg:text-xl max-w-2xl mx-auto drop-shadow-lg">
                     {description}
